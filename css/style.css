@@ -1,0 +1,83 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Components file */
+@import url("components/button.css");
+@import url("components/cards.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: black;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: darkred;
+}
+
+/* Custom design below! */
+
+.text-center {
+  text-align: center;
+}
+
+.banner{
+  width: auto;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  /* border-radius: 5px; */
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /* margin-bottom: 10px; */
+}
+
+
+.how-it-works{
+  width: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  color: White;
+  background-color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  /* border-radius: 5px; */
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /* margin-bottom: 10px; */
+}
+
+.footer{
+  width: auto;
+  height:auto;
+  background-color: red;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
